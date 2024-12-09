@@ -1,7 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
 
-export default function Product() {
+
+export default function FProducts() {
   const categories = [
     {
         id: 1,
@@ -32,5 +31,8 @@ export default function Product() {
       },
   ];
 
-  // return (8 // );
+
+  return (
+    <div>hello</div>
+  )
 }
