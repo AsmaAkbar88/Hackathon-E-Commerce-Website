@@ -10,7 +10,9 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
-  			primerypurple: '#272343',
+  			blackPrimery: '#272343',
+			skyblue: "#007580",
+			gray: '#636270',
   			backgroundImage: {
   				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'

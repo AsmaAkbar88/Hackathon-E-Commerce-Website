@@ -1,18 +1,24 @@
 
 
-import CompanyLogo from "./components/CompanyLogo";
+import CompanyLogo from "./components/Logo";
 import FProducts from "./components/FProducts";
-
+import ExploreProduct from "./components/ExploreProducts";
+import OurProduct from "./components/OurProduct";
 import Hero from "./components/Hero";
-import TopCat from "./components/TopCat";
+import TopCategry from "./components/TopCategry";
 
 export default function Home() {
   return (
-    <div> 
+    < > 
+
       <Hero/>
       <CompanyLogo/>
-      <TopCat/>
-      <FProducts/>      
-    </div>
+      <FProducts/>  
+      <TopCategry/>
+      <ExploreProduct/>
+      <OurProduct/>
+      
+          
+    </>
   );
 }
