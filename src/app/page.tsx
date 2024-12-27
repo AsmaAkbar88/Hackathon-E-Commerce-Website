@@ -7,6 +7,7 @@ import OurProduct from "./components/OurProduct";
 import Hero from "./components/Hero";
 import TopCategry from "./components/TopCategry";
 
+
 export default function Home() {
   return (
     < > 
@@ -17,6 +18,7 @@ export default function Home() {
       <TopCategry/>
       <ExploreProduct/>
       <OurProduct/>
+    
       
           
     </>
