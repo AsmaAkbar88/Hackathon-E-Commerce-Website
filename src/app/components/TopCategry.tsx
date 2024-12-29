@@ -50,8 +50,8 @@ export default function ArrayCategories() {
   
 
     return (
-      <div className='py-[28rem] px-[9rem]'>
-        <div className='max-w-5xl mx-auto '>
+      <div className='py-[28rem] px-[9rem] w-full'>
+        <div className='max-w-5xl mx-auto h-full'>
           <h1 className='text-4xl text-blackPrimery font-semibold'>Top categories</h1>
         </div>
 

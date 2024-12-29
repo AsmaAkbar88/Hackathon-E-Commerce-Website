@@ -95,7 +95,7 @@ const Productbtom = ({ NewNamproduct }:
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/allproduct/1st.png",
+      image: "/allProduct/1st.png",
       isNew: true,
     },
     {
@@ -103,17 +103,17 @@ const Productbtom = ({ NewNamproduct }:
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/allproduct/2nd.jpg",
+      image: "/allProduct/2nd.jpg",
       isSale: true,
     },
     { id: 3, title: "Library Stool Chair", 
 
-      price: 20, image: "/allproduct/3rd.jpg" },
+      price: 20, image: "/allProduct/3rd.jpg" },
       
 
       
     { id: 4, title: "Library Stool Chair"
-      , price: 20, image: "/allproduct/4th.jpg" },
+      , price: 20, image: "/allProduct/4th.jpg" },
       
 
     //   2nd row 
@@ -123,7 +123,7 @@ const Productbtom = ({ NewNamproduct }:
         id: 5,
         title: "Library Stool Chair",
         price: 20,
-        image: "/allproduct/5th.png",
+        image: "/allProduct/5th.png",
         isNew: true,
       },
       {
@@ -131,17 +131,17 @@ const Productbtom = ({ NewNamproduct }:
         title: "Library Stool Chair",
         price: 20,
         originalPrice: 30,
-        image: "/allproduct/6th.jpg",
+        image: "/allProduct/6th.jpg",
         isSale: true,
       },
       { id: 7, title: "Library Stool Chair", 
   
-        price: 20, image: "/allproduct/7th.jpg" },
+        price: 20, image: "/allProduct/7th.jpg" },
         
   
         
       { id: 8, title: "Library Stool Chair"
-        , price: 20, image: "/allproduct/8th.png" },
+        , price: 20, image: "/allProduct/8th.png" },
 
         // 3rd row 
 
@@ -149,7 +149,7 @@ const Productbtom = ({ NewNamproduct }:
             id: 9,
             title: "Library Stool Chair",
             price: 20,
-            image: "/allproduct/9th.png",
+            image: "/allProduct/9th.png",
             isNew: true,
           },
           {
@@ -157,17 +157,17 @@ const Productbtom = ({ NewNamproduct }:
             title: "Library Stool Chair",
             price: 20,
             originalPrice: 30,
-            image: "/allproduct/10th.jpg",
+            image: "/allProduct/10th.jpg",
             isSale: true,
           },
           { id: 11, title: "Library Stool Chair", 
       
-            price: 20, image: "/allproduct/11th.jpg" },
+            price: 20, image: "/allProduct/11th.jpg" },
             
       
             
           { id: 12, title: "Library Stool Chair"
-            , price: 20, image: "/allproduct/12th.png" }
+            , price: 20, image: "/allProduct/12th.png" }
    
   ];
 
