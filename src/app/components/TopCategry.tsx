@@ -52,14 +52,15 @@ export default function ArrayCategories() {
     return (
       <div className='py-[28rem] px-[9rem] w-full'>
         <div className='max-w-5xl mx-auto h-full'>
-          <h1 className='text-4xl text-blackPrimery font-semibold'>Top categories</h1>
-        </div>
+          <h1 className='text-4xl text-blackPrimery
+           font-semibold'>Top categories</h1>
+        
 
         <div className='grid grid-cols-3 gap-6 pt-16'>
           {categories.map((catergty) => (
           <BotmCategray key ={ catergty.id} NewNamCategray={catergty} />
         ))}</div>
-     
+     </div>
       </div>
     )
   }

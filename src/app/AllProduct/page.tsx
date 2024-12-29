@@ -173,7 +173,7 @@ const Productbtom = ({ NewNamproduct }:
 
   return (
     
-<section className=" container w-full ]">
+<section className="  w-full ">
   <div className="  max-w-5xl mx-auto h-full  mt-28">
     
 
