@@ -24,9 +24,9 @@ const SecTopbar = () => {
 
 
           {/* Right side:  */}
-          <Link href="/cart">
-            <button className="flex items-center gap-2
-           bg-white py-2 px-4 
+          <Link href="/Cart">
+            <button className="flex items-center gap-4
+           bg-white py-2 px-3
           rounded-md">
               <FaShoppingCart className="w-[16px] h-[16px]" />
               <span className='text-[12px] text-blackPrimery'>Cart</span>

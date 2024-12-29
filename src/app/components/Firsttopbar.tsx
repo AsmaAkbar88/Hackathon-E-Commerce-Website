@@ -36,15 +36,17 @@ const Topnavbar = () => {
           </div>
           {/* fAQ  */}
 
-          <div ><Link href="#"><p className="cursor-pointer">FAQs</p></Link>
+          <div ><Link href="FaQs"><p className="cursor-pointer">FAQs</p></Link>
           </div>
 
           {/* needs help  */}
-
+<Link href={'/NeedsHelp'}>
           <div className='flex items-center gap-2 cursor-pointer'>
             <FaExclamationCircle/>
             Need Help</div>
+            </Link>
         </div>
+       
       </div>
     </div>
   )

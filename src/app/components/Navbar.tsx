@@ -29,15 +29,15 @@ const Navbar = () => {
           text-[14px] font-medium leading[110%]">
             Shop
           </Link>
-          <Link href="/product" className="hover:text-skyblue text-gray
+          <Link href="/AllProduct" className="hover:text-skyblue text-gray
           text-[14px] font-medium leading[110%]">
             Product
           </Link>
-          <Link href={"#"} className="hover:text-skyblue text-gray
+          <Link href={"/Pages"} className="hover:text-skyblue text-gray
           text-[14px] font-medium leading[110%]">
             Pages
           </Link>
-          <Link href="/about" className="hover:text-skyblue text-gray
+          <Link href="/About" className="hover:text-skyblue text-gray
           text-[14px] font-medium leading[110%]">
             About
           </Link>

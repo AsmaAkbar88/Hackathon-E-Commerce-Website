@@ -147,8 +147,8 @@ const Productbtom = ({ NewNamproduct }:
 
   return (
     
-<section className=" w-full h-[84px]">
-  <div className="  max-w-5xl mx-auto h-full  mt-28">
+<section className=" w-full h-[84px] mb-[800px]">
+  <div className="  max-w-5xl mx-auto h-full   mt-28">
     
 
 

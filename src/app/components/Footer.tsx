@@ -13,9 +13,10 @@ import {
 
 const Footer = () => {
   return (
-    <div className='w-full mt-[800px]
-     bg-white border border-gray-200 px-4'>
-      <div className='max-w-5xl space-x-4 mx-auto mt-12 flex items-stretch
+    <div className='w-full 
+     bg-white border-t border-gray-200 px-4'>
+      <div className='max-w-5xl flex  space-x-4 mx-auto mt-12
+       items-stretch
        justify-between gap-8
        py-12 '>
 
@@ -160,7 +161,8 @@ border-2 border-transparent rounded-full hover:border-[#007580]'>
 </div>
      
     {/* ----------------------------------------------------------------------------- */}
-    <div className='border-t'>     <div className=' text-[#9A9CAA] flex pt-8
+    <div className='border-t'>    
+         <div className=' text-[#9A9CAA] flex pt-8
      max-w-5xl mx-auto justify-between items-center'>
         <p>
         @ 2021 - Blogy - Designed & Developed by {" "}

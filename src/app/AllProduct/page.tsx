@@ -23,7 +23,7 @@ const Productbtom = ({ NewNamproduct }:
   <div key={NewNamproduct.id} className="group ">
 
 
-    <div className="relative aspect-square ">
+    <div className="relative aspect-square rounded-lg">
       {NewNamproduct.isNew && (
         <div className="absolute text-xs left-3 top-3 px-1 py-1
          bg-emerald-500 hover:bg-emerald-600">
@@ -95,7 +95,7 @@ const Productbtom = ({ NewNamproduct }:
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/allProduct/1st.png",
+      image: "/allproduct/1st.png",
       isNew: true,
     },
     {
@@ -103,17 +103,17 @@ const Productbtom = ({ NewNamproduct }:
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/allProduct/2nd.jpg",
+      image: "/allproduct/2nd.jpg",
       isSale: true,
     },
     { id: 3, title: "Library Stool Chair", 
 
-      price: 20, image: "/allProduct/3rd.jpg" },
+      price: 20, image: "/allproduct/3rd.jpg" },
       
 
       
     { id: 4, title: "Library Stool Chair"
-      , price: 20, image: "/allProduct/4th.jpg" },
+      , price: 20, image: "/allproduct/4th.jpg" },
       
 
     //   2nd row 
@@ -123,7 +123,7 @@ const Productbtom = ({ NewNamproduct }:
         id: 5,
         title: "Library Stool Chair",
         price: 20,
-        image: "/allProduct/5th.png",
+        image: "/allproduct/5th.png",
         isNew: true,
       },
       {
@@ -131,50 +131,49 @@ const Productbtom = ({ NewNamproduct }:
         title: "Library Stool Chair",
         price: 20,
         originalPrice: 30,
-        image: "/allProduct/6th.jpg",
+        image: "/allproduct/6th.jpg",
         isSale: true,
       },
       { id: 7, title: "Library Stool Chair", 
   
-        price: 20, image: "/allProduct/7th.jpg" },
+        price: 20, image: "/allproduct/7th.jpg" },
         
   
         
       { id: 8, title: "Library Stool Chair"
-        , price: 20, image: "/allProduct/8th.png" },
+        , price: 20, image: "/allproduct/8th.png" },
 
         // 3rd row 
 
-
-    {
-        id: 5,
-        title: "Library Stool Chair",
-        price: 20,
-        image: "/allProduct/9th.png",
-        isNew: true,
-      },
-      {
-        id: 6,
-        title: "Library Stool Chair",
-        price: 20,
-        originalPrice: 30,
-        image: "/allProduct/10th.jpg",
-        isSale: true,
-      },
-      { id: 7, title: "Library Stool Chair", 
-  
-        price: 20, image: "/allProduct/11th.jpg" },
-        
-  
-        
-      { id: 8, title: "Library Stool Chair"
-        , price: 20, image: "/allProduct/12th.png" }
+        {
+            id: 9,
+            title: "Library Stool Chair",
+            price: 20,
+            image: "/allproduct/9th.png",
+            isNew: true,
+          },
+          {
+            id: 10,
+            title: "Library Stool Chair",
+            price: 20,
+            originalPrice: 30,
+            image: "/allproduct/10th.jpg",
+            isSale: true,
+          },
+          { id: 11, title: "Library Stool Chair", 
+      
+            price: 20, image: "/allproduct/11th.jpg" },
+            
+      
+            
+          { id: 12, title: "Library Stool Chair"
+            , price: 20, image: "/allproduct/12th.png" }
    
   ];
 
   return (
     
-<section className=" w-full h-[84px]">
+<section className=" container w-full ]">
   <div className="  max-w-5xl mx-auto h-full  mt-28">
     
 
@@ -188,7 +187,7 @@ const Productbtom = ({ NewNamproduct }:
   </div>
 
 
-   {/* image div and botm din  */}
+   {/* image div and botm div  */}
   <div className="  py-10"> 
 
       <div className="grid  gap-12 grid-cols-4">
@@ -198,11 +197,55 @@ const Productbtom = ({ NewNamproduct }:
         ))}
       </div>
     </div>
+    {/* ------------------------------------------------------------  */}
+
+{/* 2nd div  */}
+<section className='  bg-gray-200 mt-24 mb-24' >
+<div className=' '>
+
+    <div className='pt-12 flex items-center justify-center'>
+        <h1 className='text-[50px] capitalize'>
+            Or subscribe to the newsletter</h1></div>
+            </div>
+            <div>
+        <span className='pt-8 flex gap-4 items-center justify-center'>
+        <input className='border  px-12 rounded-md border-black py-2' type="email" 
+        placeholder='Email Address'/>
+        <button type='submit' className='bg-gray-500 px-8 py-2 rounded-md'>Submit</button>
+        </span>
+        
+        </div>
+
+
+{/* 2nd instrgm section  */}
+
+
+<div className=' container mx-auto px-4 py-20 pt-16'>
+    <div className=''><h1 className=' mb-12 text-[40px] text-center '>Follow Products And Discounts On Instagram
+    </h1></div>
+<div className='grid grid-cols-6 gap-6 '>
+    <Image src={'/instgrm/1st.png'} alt={''} width={186} height={186} className="max-w-full"></Image>
+    <Image src={'/instgrm/2nd.png'} alt={''} width={200} height={200} className="max-w-full"></Image>
+    <Image src={'/instgrm/3rd.jpg'} alt={''} width={200} height={200} className="max-w-full"></Image>
+    <Image src={'/instgrm/4th.png'} alt={''} width={200} height={200} className="max-w-full"></Image>
+    <Image src={'/instgrm/5th.jpg'} alt={''} width={196} height={196} className="max-w-full"></Image>
+    <Image src={'/instgrm/6th.png'} alt={''} width={200} height={200} className="max-w-full"></Image>
+</div>
+
+
+
+</div>
+
+
+
+        </section>
 
       </div>
+      
       </div>
+      
       </section>
-    
+     
   )
 }
 
